@@ -1,0 +1,17 @@
+[project]
+name = "projektpjn"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Szymon Kwidzinski s23662",email = "s23662@pjwstk.edu.pl"}
+]
+readme = "README.md"
+requires-python = ">=3.12, <4.0"
+dependencies = [
+    "p (>=1.5.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
