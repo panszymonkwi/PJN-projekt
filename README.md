@@ -5,8 +5,8 @@
 ### Autor: Szymon Kwidzinski
 
 ## Cel projektu:
-Celem projektu jest stworzenie modułu wspomagającego wydobywanie kluczowych informacji z licznych
-na rynku publikacji o sprzedaży czy kupnie samochodów. Ogłoszenia o samochodach są 
+Celem projektu jest stworzenie programu do wydobywania kluczowych informacji z licznych
+na rynku ogłoszeń o sprzedaży czy kupnie samochodów. Ogłoszenia o samochodach są 
 w obecnych czasach poprzeplatane licznymi zdjęciami, reklamami, przepisami i różnymi
 zbędnymi informacjami, więc stworzenie dużego zbioru treningowego z ogłoszeń było 
 uciążliwe i bardzo pracochłonne. Natomiast trudno było znaleźć gotowy zbiór
@@ -14,7 +14,7 @@ treningowy w języku Polskim dla wybranych modeli.
 
 ## Opis projektu:
 Do ekstrakcji informacji z ogłoszeń wykorzystane zostały trzy modele spaCy opracowane w języku
-polskim autorstwa grupy Explosion: pl_core_news_sm-3.8.0, pl_core_news_md-3.8.0 i pl_core_news_lg-3.8.0.
+polskim autorstwa grupy Explosion: pl_core_news_sm-3.8.0 , pl_core_news_md-3.8.0 i pl_core_news_lg-3.8.0 .
 Wykorzystana została bogata biblioteka spaCy i jej moduł Matcher, do którego dodane zostały potrzebne 
 wzorce. Trudność sprawiło zdobycie odpowiednich ogłoszeń i przygotowanie odpowiedniego zbioru treningowego
 oraz zbioru testowego. Wydobyte informacje dotyczyły takich kategorii jak: rodzaj ogłoszenia, marka 
