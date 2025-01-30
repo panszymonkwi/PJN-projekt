@@ -27,7 +27,7 @@ przetworzenia zostały zestawione w tabelce oraz na odpwiednich diagramach, a ta
 
 ![](wykresy/precision.png)
 
-![](wykresy/specifity.png)
+![](wykresy/specificity.png)
 
 ## Język kodu:
 Python 3.12
