@@ -389,7 +389,7 @@ with open('wyniki.csv','w',encoding='utf-8',newline='') as csvfile:
         csvwriter.writerow([w_kat_sm[row][0],w_kat_sm[row][1],w_kat_sm[row][2],w_kat_md[row][0],w_kat_md[row][1],w_kat_md[row][2],w_kat_lg[row][0],w_kat_lg[row][1],w_kat_lg[row][2]])
 
 models = ["pl_core_news_sm",  "pl_core_news_md", "pl_core_news_lg"]
-wynikiTa = [" ACCURACY ",  "PRECISION ", "SPECIFITY"]
+wynikiTa = [" ACCURACY ",  "PRECISION ", "SPECIFICITY"]
 wynikiT  = ["DOKŁADNOŚĆ",  " PRECYZJA ", "SWOISTOŚĆ "]
 print("                                                 Wyniki ostatnich testów modeli          ")
 print("----------------------------------------------------------------------------------------------------------------------------------------")
@@ -433,11 +433,11 @@ while char == " ":
                 fontsize = 10, color = 'blue')
 
     plt.ylabel('procent', fontsize = 14)
-    plt.title('SPECIFITY - wyniki dla modeli pl_core_news_*',fontsize = 16) #, fontweight ='bold')
+    plt.title('SPECIFICITY - wyniki dla modeli pl_core_news_*',fontsize = 16) #, fontweight ='bold')
     plt.xlim([0,9])
     plt.ylim([0,100])
     plt.legend(('sm', 'md','lg'), loc = 'upper left')
-    plt.savefig('./wykresy/specifity.png')
+    plt.savefig('./wykresy/specificity.png')
     plt.show( )
 
 
